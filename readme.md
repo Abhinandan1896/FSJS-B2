@@ -2,7 +2,8 @@
 
  ## <span style="color: orange;">**Ineuron==PW Skills**</span>
 
-_this is Full Stack JavaScript Web Development Course By ineuron institute...... the two mian teacher of this camp is @hitesh sir and @anurag sir i am very much thankfull to ineuron by giving us very such affordable platform, where all can learn high quality content_
+_this is Full Stack JavaScript Web Development Course By ineuron institute...... the two mian teacher of this camp is @hitesh sir and @anurag sir 
+i am very much thankfull to ineuron by giving us very such affordable platform, where all can learn high quality content._
 
 ## <span style="color:yellow">**Articles**</span> :- 
 _i have not yet posted any article on github but soon i will be pushing, already i have written some article on HashNode._
