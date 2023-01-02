@@ -8,7 +8,7 @@ i am very much thankfull to ineuron by giving us very such affordable platform, 
 ## <span style="color:yellow">**Articles**</span> :- 
 _i have not yet posted any article on github but soon i will be pushing, already i have written some article on HashNode._
 
-## <span style="color:yellow">**Articles**</span> :-
+## <span style="color:yellow">**Practice**</span> :-
 _while learning we learn most of the things by our ow practice , so here are my some practice work which
 homework given by sir and regular classwork done by me._
 
