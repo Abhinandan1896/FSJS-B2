@@ -7,6 +7,10 @@ _this is Full Stack JavaScript Web Development Course By ineuron institute......
 ## <span style="color:yellow">**Articles**</span> :- 
 _i have not yet posted any article on github but soon i will be pushing, already i have written some article on HashNode._
 
+## <span style="color:yellow">**Practice**</span> :-
+_while learning we learn most of the things by our ow practice , so here are my some practice work which
+homework given by sir and regular classwork done by me._
+
 ## <span style="color:yellow">**W3 Project 1-2-3**</span> :-
 _in this there are three main project given by ineuron so i have completed them using CSS and HTML only_
 
