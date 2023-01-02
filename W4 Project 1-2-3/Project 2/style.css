@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    height: 12vh;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 125px;
+}
+.list :first-child{
+    color: #4ca874;
+}
+.nav-bar img{
+    height: 8vh;
+    position: relative;
+    left: 75px;
+}
+main{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.left-side{
+    width: 55%;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 15px;
+    left: 95px;
+}
+.left-side h1{
+    font-size: 65px;
+}
+.left-side p{
+    margin: 4% 0 2% 0;
+    text-align: left;
+    font-size: 17px;
+    color: gray;
+}
+.left-side button{
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:#4ca874;
+    border: none;
+    padding: 20px 45px;
+    border-radius: 55px;
+}
+.left-side :nth-child(5){
+    position: relative;
+    left: 215px;
+}
+.left-side :nth-child(6){
+    position: relative;
+    top: 55px;
+    left: 245px;
+}
+.right-side{
+    width: 45%;
+}
+.gbox, .ybox{
+    position: absolute;
+    right: 0;
+}
+.gbox{
+    height: 65vh;
+    width:30vw;
+    bottom:25px;
+    right: 10px;
+}
+.ybox{
+    height: 55vh;
+    bottom: 60px;
+}
+.doctor{
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    height: 85vh;
+}
