@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS-Code Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-sky-700 text-center h-[45px]">
+        <p class="font-bold text-xl py-2">it's just for educational purpose</p>
+    </div>
+    <div class="absolute sticky top-0">
+        <nav class="py-1.5 flex flex-row bg-zinc-700 justify-between">
+        <img class="h-10 relative left-40" src="./assets/vs studio symbol.png" alt="studio-logo">
+        <ul class="gap-6 items-center flex flex-row font-medium text-gray-400 " >
+        <li class="mb-1 text-xl text-white font-normal">Visual Studio Code</li>
+        <li class="hover:text-white">Docs</li>
+        <li class="hover:text-white">Updates</li>
+        <li class="hover:text-white">Blog</li>
+        <li class="hover:text-white">API</li>
+        <li class="hover:text-white">Extensions</li>
+        <li class="hover:text-white">FAQ</li>
+        <li class="hover:text-white">Learn</li>
+        </ul>
+        <input class="hover:bg-zinc-500 font-small bg-zinc-600" type="text" placeholder="Search Docs">
+        <button class="hover:bg-sky-700 relative right-40 px-8 py-2 bg-sky-600 text-white font-medium">Download</button>  
+       </nav>
+    </div>
+    <div>
+        <p class="text-center text-gray-300 bg-zinc-800 py-2.5">
+            <a href="#" class="text-blue-500 hover:underline">Version 1.74</a> is now available! Read about the new features and fixes from November.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-2 h-[92vh] bg-zinc-700 p-20">
+        <!-- left Section -->
+        <div class="text-white text-center">
+
+        <p class="text-5xl ... font-normal">Code editing.</p>
+        <p class="text-5xl ... font-medium  "> Redefined.</p>
+        <p class="text-gray-400 text-xl pt-2 pb-4 ">Free. Built on open source. Runs everywhere.</p>
+        <div>
+        <button class="px-8 py-2 bg-sky-600 text-white text-xl font-medium hover:bg-sky-700 ">Download for Windows <br><p class="text-sm font-normal">Stable Build</p></button>
+        <button class="px-4 py-[18px] bg-sky-600 text-white text-xl font-medium hover:bg-sky-700">^</button></div>
+        <div><p class="px-4 py-6"><a href="#" class="text-blue-600 hover:underline ">Web</a>,<a href="#" class="text-blue-600 hover:underline">Insiders edition</a>, or <a href="#" class="text-blue-600 hover:underline">other platform</a></p></div>
+        <p class="text-sm text-gray-400">By using VS Code, you agree to its <br><a href="#" class="text-blue-600 hover:underline">license and privacy statement.</a></p>
+        </div>
+
+        <!-- rightt Section -->
+        <div>
+            <img class="h-full shadow-md" src="./assets/VSC Front.png" alt="front image">
+        </div>
+    </div>
+    <div class="h-[140px] bg-white flex flex-row justify-center gap-[150px]
+    items-center text-center text-xl">
+        <div class="h-[120px] w-[150px] hover:bg-gray-300"><img class="relative left-6 top-0.5 " src="./assets/bulb.png" alt="bulb"><p>IntelliSense</p></div>
+        <div class="h-[120px] w-[150px] hover:bg-gray-300"><img class="relative left-7 top-0.5" src="./assets/R & d.png" alt="debug"><p>Run and Debug</p></div>
+        <div class="h-[120px] w-[150px] pt-3 hover:bg-gray-300"><img class="relative left-8 bottom-2" src="./assets/git.png" alt="git"><p>Built-in Git</p></div>
+        <div class="h-[120px] w-[150px] hover:bg-gray-300"><img class="relative left-8 top-0.5" src="./assets/extensions.png" alt="extension"><p>Extensions</p></div>
+    </div>
+    <div class="h-[50vh] text-center  bg-gray-100 grid grid-cols-3 items-center">
+        <div>
+            <p>Just as I thought @code couldn't get better,<br> out comes its Remote Development plugins <br> that let you remote into containers as a dev environment! 😍</p>
+        </div>
+        <div>
+            <p>I was a vim fan, but then discovered VS Code's Vim plugin,<br> which lets me add in my vim keybindings. I can maintain my <br> coding style without having to compromise on speed.</p>
+        </div>
+        <div>
+            <p>I love @code The built-in markdown previewer is awesome <br> and the plugin system allows me to use GitLens, which makes <br> my workflow so much easier.</p>
+        </div>
+    </div>
+    <div class="h-[50vh] bg-white flex justify-center justify-around
+    items-center">
+    <img  src="./assets/home-intellisense.svg" alt="">
+    <div class="word-wrap text-left leading-loose relative right-20 "><h1 class="text-3xl">Meet IntelliSense. <br></h1><p class="text-xl text leading-loose py-6">Go beyond syntax highlighting and autocomplete with IntelliSense, which <br>  provides smart completions based on variable types, function definitions, and <br> imported modules.</p></div>
+    </div>
+
+    <div class="h-[50vh] bg-gray-100 flex justify-center justify-around
+    items-center">
+    <div class="word-wrap text-left leading-loose px-16"><h1 class="text-3xl">Print statement debugging is a thing of the past.</h1><p class="text-xl word-wrap leading-loose py-6">Debug code right from the editor. Launch or attach to your running apps and <br> debug with break points, call stacks, and an interactive console.</p></div>
+    <img src="./assets/home-debug.svg" alt="">
+    </div>
+
+    <div class="h-[50vh] bg-white flex justify-center justify-around
+    items-center">
+    <img src="./assets/home-git.svg" alt="">
+    <div><h1 class="text-3xl">Git commands built-in.</h1><p class="text-xl word-wrap leading-loose py-6">Working with Git and other SCM providers has never been easier. Review diffs, <br> stage files, and make commits right from the editor. Push and pull from any <br> hosted SCM service.</p></div>
+    </div>
+
+    <div class="h-[50vh] bg-gray-100 flex justify-center justify-around
+    items-center">
+    <div class="text-fixed"><h1 class="text-3xl">Extensible and customizable.</h1><p class="text-xl word-wrap leading-loose py-6">Want even more features? Install extensions to add new languages, themes,<br> debuggers, and to connect to additional services. Extensions run in separate <br> processes, ensuring they won't slow down your editor. <a class="text-sky-600 " href="#">Learn more about <br> extensions.</a> </p></div>
+    <img class="h-[230px] mr-28 hover:h-[250px] " src="./assets/Hundreds-of-Extensions.png" alt="">
+    </div>
+
+    <div class="h-[50vh] bg-white flex justify-center justify-around
+    items-center">
+    <img src="./assets/home-azure.svg" alt="">
+    <div><h1 class="text-3xl">Deploy with confidence and ease</h1><p class="text-xl word-wrap leading-loose py-6">With Microsoft Azure you can deploy and host your React, Angular, Vue, Node,<br> Python (and more!) sites, store and query relational and document based data,<br> and scale with serverless computing, all with ease, all from within VS Code.</p></div>
+    </div>
+
+    <div class="h-[67vh] bg-gray-100 flex flex-col items-center justify-center   gap-8">
+    <h1 class="text-3xl">VS Code for</h1>
+    <div class=" grid grid-cols-6 gap-12 text-xl ">
+        <div class="flex items-center "><img src="./assets/apple_files/javascript.svg" alt=""><p class="mb-2">JavaScript</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/python.svg" alt=""><p class="mb-2">Python</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/java.svg" alt=""><p>Java</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/markdown.svg" alt=""><p>MarkDown</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/typescript.svg" alt=""><p>TypeScript</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/cpp.svg" alt=""><p>C/C++</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/json.svg" alt=""><p>JSON</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/powershell.svg" alt=""><p>Powershell</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/html.svg" alt=""><p>HTML/CSS</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/csharp.svg" alt=""><p>C#</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/php.svg" alt=""><p>PHP</p></div>
+        <div class="flex items-center "><img src="./assets/apple_files/yaml.svg" alt=""><p>YAML</p></div>
+    </div>
+    <p class="text-sky-600 text-xl hover:underline">and many more languages on the Marketplace...</p>
+    <button class="font-bold text-white text-xl bg-sky-600 hover:bg-sky-700 h-[60px] w-[30vh] mt-6">Get Started Now</button>
+    </div>
+
+    <div class="h-[67vh] bg-white flex justify-center justify-around items-center">
+    <div><img src="" alt=""></div>
+    <div>penguin</div>
+    <div>apple</div>
+    </div>
+
+    <div class="h-[50vh] bg-gray-100 ">
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="h-[13.5vh] bg-zinc-600 ">
+     <div>
+        <li></li>
+        <li></li>
+        <li></li>
+     </div>
+     <ul>
+     <li>1</li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+    </ul>
+    </div>
+</body>
+</html>
