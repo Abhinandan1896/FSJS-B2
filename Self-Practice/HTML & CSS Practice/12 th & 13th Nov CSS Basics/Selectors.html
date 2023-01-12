@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Selectors</title>
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    <style>
+        /* Universal selectors */
+    *{
+        color:  blueviolet;
+        text-align: left;
+    }
+    /* Individual selectors */
+    p{
+        color: black;
+        background-color: aquamarine;
+    }
+    /* Class and ID selectors */
+    .warning{
+        color: #b91455;
+        background-color: orangered;
+    }
+    #danger{
+        color: black;
+        background-color: yellow;
+    }
+    /* AND Selectors */
+    li.bg-black {
+        color: #ffffff;
+        background-color: rgb(255, 47, 245);
+    }
+    li.bg-black#danger{
+        color: #858d12;
+        background-color: rgb(90, 27, 179);
+    }
+    /* Combined Selectors */
+    span, li{
+        color: black;
+        background-color: grey;
+    }
+    /* Inside an Element */
+    div ul li{
+        background-color: greenyellow;
+    }
+    /* direct Child */
+    div>ul>li{
+        background-color: #2714b9      ;
+    }
+    /* Sibling */
+    .siblings + p{  
+      background-color: magenta;
+    }
+    </style>
+</head>
+<body>
+
+    <div>Welcome to css first live Class</div>
+    <span>Span is just Sapn nothing more than</span>
+    <p>We all know Paragraph</p>    
+    <ul>
+       <li class="bg-black text-white">item 1</li>
+        <li class="warning">item 2</li>
+        <li>item 3</li>
+        <li class="warning">item 4</li>
+        <li>item 5</li>
+    </ul>
+    
+    <div>
+        <li id="danger">Awesome</li>
+        <ul>
+            <li>highlight me</li>
+            <li class="bg-black" id="danger">highlight me</li>
+        </ul>
+    </div>
+
+    <section>
+        <p>test 1</p>
+        <p class="siblings">test 2</p>
+        <p>test 3</p>
+        <p>test 4</p>
+        <p>test 5</p>
+    </section>
+</body>
+</html>

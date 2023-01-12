@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Selectors</title>
+<style>
+    h1:hover:after{
+        content: "--nice to see you";
+        display: inline;
+        padding: 10px;
+        border: 10px solid gray;
+        background-color: skyblue;
+    
+
+    }
+   .imp-lable:hover:before{     /*before after is just to add the content
+    before or after the selected element and hover indicates its thats all nothing . 
+    it helpful to show something important tips/note/alarm/highligths */
+    content: 'enter correct name';  /*contect can be empty also you can also add whatevr content is there */
+    display: inline;
+    padding:5px;
+    border-radius: 10px solid gray;
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    
+}
+.email{
+    padding: 5px;
+    background-color: aqua;
+    color: red;
+
+}
+.btn-imp{
+    background-color: blue;
+    color: white;
+    border: 5px white solid;
+    border-radius: 2px;
+}
+.btn-imp:hover{
+    background-color: white;
+    color: blue;
+    border: 5px blue solid;
+    border-radius: 2px;
+}
+</style>
+</head>
+<body>
+    <h1>Hii guys</h1>
+    <div>
+        <form action="">
+            <label class="imp-lable" for="name">Name</label>
+            <input type="text" name="Name">
+            <label  class="email" for="email">email</label>
+            <input type="text" name="Email">
+            <button class="btn-imp" data-tooltip="Tooltip" type="submit">Submit</button>
+        </form>
+    </div>  
+</body>
+</html>
