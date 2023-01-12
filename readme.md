@@ -19,7 +19,7 @@ _i have not yet posted any article on github but soon i will be pushing, already
 - ### <span style="color:yellow">**1. VS-Code Clone**</span> :-
   _VS-Code Website is clone Using HTML & TAILWIND CSS only_
   
-- ### <span style="color:yellow">**2. 6 Project **</span> :-
+- ### <span style="color:yellow">**2. 6 Projects**</span> :-
   _in this there are 6 again main project given by ineuron so i have completed them also using TAAILWIND CSS and HTML only_
   
 ## <span style="color:yellow">**JavaScript Assignment**</span> :-
