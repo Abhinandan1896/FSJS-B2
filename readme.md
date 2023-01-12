@@ -10,14 +10,20 @@ _i have not yet posted any article on github but soon i will be pushing, already
 
 ## <span style="color:yellow">**Projects(HTML & CSS)**</span> :- 
 - ### <span style="color:yellow">**1. W3 Project 1-2-3**</span> :-
-  _in this there are three main project given by ineuron so i have completed them using CSS and HTML only_
+  _in this there are 3 main project given by ineuron so i have completed them using CSS and HTML only_
 
 - ### <span style="color:yellow">**2. W4 Project 1-2-3**</span> :-
-  _in this there are three again main project given by ineuron so i have completed them also using CSS and HTML only_
+  _in this there are 3 again main project given by ineuron so i have completed them also using CSS and HTML only_
   
 ## <span style="color:yellow">**Projects(Tailwind)**</span> :-
 - ### <span style="color:yellow">**1. VS-Code Clone**</span> :-
-  _VS-Code Website is clone Using HTML & CSS TAILWIND only_
+  _VS-Code Website is clone Using HTML & TAILWIND CSS only_
+  
+- ### <span style="color:yellow">**2. 6 Project **</span> :-
+  _in this there are 6 again main project given by ineuron so i have completed them also using TAAILWIND CSS and HTML only_
+  
+## <span style="color:yellow">**JavaScript Assignment**</span> :-
+  _we have given 30-Q Assignment based on JavaScript_
 
 ## <span style="color:yellow">**readme.md**</span> :-
 _it is over-all explanation of all the Full Stack Java-Script Web Development Process, how we are going for full stack web development course procedure._
