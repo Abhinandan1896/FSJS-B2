@@ -23,7 +23,7 @@ _i have not yet posted all article on github but soon i will be pushing, already
   _in this there are 6 again main project given by ineuron so i have completed them also using TAAILWIND CSS and HTML only_
   
 ## <span style="color:yellow">**JavaScript Assignment**</span> :-
-  _we have given 30-Q Assignment based on JavaScript_
+  _we have given 30-Quetions Assignment based on JavaScript_
 
 ## <span style="color:yellow">**Self-Practice**</span> :-
 _Here is my practice folder of ineuron class teachings._
