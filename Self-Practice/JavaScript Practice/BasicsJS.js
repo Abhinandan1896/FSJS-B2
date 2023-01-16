@@ -86,7 +86,7 @@ while(j<=7){
   console.log(j);
   j++
 }
-//3)do-whilw loop
+//3)do-while loop
 let i=1; //initilisation variable
 do{
     console.log(i);//atleast once run before checking conditions
