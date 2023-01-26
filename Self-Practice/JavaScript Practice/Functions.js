@@ -51,7 +51,7 @@ let add3=sum4(1,2,3,4,5,6,7,8,9);
 console.log(add3);
 
 //6)Arrow Function-(=>):-everything is same as in the original function, same properties will be applicable to arrow function also, only the way of writing is different..
-let sum5=(var1,var2)=>{
+let sum5=(var1,var2)=>{  //===//  //function sum5(){}
     let add4=var1+var2;
     console.log(add4)
 }

@@ -5,7 +5,6 @@ let names=["hitesh", "Anurag", "anirudh","vinay","krish"];
 // console.log(names[names.length-1]);//last index item
 // names[4]='Abhinandan';  //changing item of arrya
 // console.log(names);
-
 // let declare=new Array('name 1', 'name 2'); //a way to declare a array//not recomnded always
 // console.log(declare);
 

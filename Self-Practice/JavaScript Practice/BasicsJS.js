@@ -3,20 +3,20 @@
 
 //i)Number value:-1,2,3,4
 let num=23;
-console.log('this is integer',num)
+console.log('this is integer',num);
 //ii)String value:- 'Abhinandan', "Kawthe"
 let nam='Achyut pr';
-console.log('the only dheera devotee is',nam)
+console.log('the only dheera devotee is',nam);
 //iii)Boolean values:- (True or false)
 let fnum=22;
 let lnum=22;
-console.log(fnum>lnum)
+console.log(fnum>lnum);
 //iv)Empty Value:- Null, Undefined
 
 //2)Non-Primitive data types: can have multiple values more thn one also
 //i)Array
-let arr=[1,2,3,4,4,4]
-console.log("this is array having multiple values",arr)
+let arr=[1,2,3,4,4,4];
+console.log("this is array having multiple values",arr);
 //ii)dictionary-key:value pairs
 let dic={
     fnam:'kirshna',
