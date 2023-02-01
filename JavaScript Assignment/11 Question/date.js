@@ -1,4 +1,4 @@
-let ak=new Date();  //Date object is there from that by using methods of date we are getting the value
+let ak=new Date();           //Date object is there from that by using methods of date we are getting the value
 console.log(ak);             //returns the value in number format
 console.log(ak.toString());  //returns the value in the string format
 

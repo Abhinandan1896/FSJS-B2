@@ -2,7 +2,7 @@
 let college='Sinhgad collge of engineering pune';
 console.log(college);
 
-//split() by each words using space tab
+//split() by each words using empty string with space tab
 let arr=college.split(' ');
 console.log(arr);
 

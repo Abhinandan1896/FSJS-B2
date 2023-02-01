@@ -1,6 +1,7 @@
-let nam='Abhinandan';
-let age=22;
-console.log(nam,'is',age,'years old.');
-import { countryname } from "./cname";
-import { webtechname } from "./webtname";
-console.log(countryname,webtechname);
+// import { webtechname } from "./webtech";
+// import { countryname } from "./countrirs";
+const countrirs=require("./countrirs");
+const webtech=require("./webtech");
+console.log(countrirs)
+console.log(webtech)
+console.log("hii ineuron-ember is here")
