@@ -7,6 +7,24 @@
     <title>JS-DOM</title>
 </head>
 <body>
-    <h1>We are Starting with dom manipulation</h1>
+    <h1 class="c1">We are Starting with dom manipulation</h1>
+    <h1 id="c2">Javascript DOM</h1>
+    <p>HTML & CSS is over</p>
+    <ul class="c3">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    </ul>
+    <script>
+        let val=document.getElementByClassName("c3");
+        console.log(val);
+        console.log(val[0].innerText)
+        val[1].innerHTML="Abhinandan"
+        //get  element by id, class , tagname, tag-->home work
+
+        //Query Selector
+        let h1=document.querySelector(".c3c").innerHTML
+        console.log(h1)
+    </script>
 </body>
 </html>
