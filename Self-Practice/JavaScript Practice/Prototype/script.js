@@ -1,1 +1,2 @@
-let name="Abhinandan   "
+let nam="Abhinandan   "
+console.log(nam);
