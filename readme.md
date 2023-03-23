@@ -6,7 +6,7 @@ _this is Full Stack JavaScript Web Development Course By ineuron institute......
 i am very much thankfull to ineuron by giving us very such affordable platform, where all can learn high quality content._
 
 ## <span style="color:yellow">**Articles**</span> :- 
-_i have not yet posted all article on github but soon i will be pushing, already i have written some article on HashNode._
+_i had posted some articles on github,wrote on Hashnode Web, you can check on the Artilce folder._
 
 ## <span style="color:yellow">**JavaScript Assignment**</span> :-
   _we have given 30-Quetions Assignment based on JavaScript_
