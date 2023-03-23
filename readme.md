@@ -12,11 +12,8 @@ _i have not yet posted all article on github but soon i will be pushing, already
   _we have given 30-Quetions Assignment based on JavaScript_
 
 ## <span style="color:yellow">**Projects(HTML & CSS)**</span> :- 
-- ### <span style="color:yellow">**1. W3 Project 1-2-3**</span> :-
-  _in this there are 3 main project given by ineuron so i have completed them using CSS and HTML only_
-
-- ### <span style="color:yellow">**2. W4 Project 1-2-3**</span> :-
-  _in this there are 3 again main project given by ineuron so i have completed them also using CSS and HTML only_
+_in this there are 3 main project given by ineuron so i have completed them using CSS and HTML only_
+- ### <span style="color:yellow">**1. 6 Project**</span> :-
   
 ## <span style="color:yellow">**Projects(Tailwind)**</span> :-
 - ### <span style="color:yellow">**1. VS-Code Clone**</span> :-
