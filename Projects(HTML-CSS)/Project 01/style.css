@@ -1,0 +1,79 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: inline-flex;
+    position: relative;
+    top: 35px;
+  }
+  .logo{
+    position: relative;
+    left: 150px;
+    top: 7px;
+  }
+  .img1{
+    height: 40px;
+  }
+  .img2{
+    height: 80vh;
+  }
+  .list{
+   display:flex; 
+   flex-direction: row;
+   justify-content: center;
+   gap: 50px;
+   position: relative;
+   left: 180px;
+  }
+  .list-item1{
+    font-weight: bolder ;
+  }
+  .list-item{
+    color: gray;
+  }
+  .banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  button{
+         height: 40px;
+         width: 130px;
+         background-color: #7575CF;
+         border-radius: 7px;
+         color: white;  
+         border: 0px;        
+  }
+  .nav-button{
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   position: relative;
+   top: 10px;
+   left: 600px;
+  }
+  .nav-button-btn{
+    height: 50px;
+    width: 150px;
+  }
+  .right{
+    position: relative;
+    top: 75px; 
+  }
+  .left{
+    position: relative;
+    right: 110px; 
+  }
+  .left h1{
+    font-size: 60px;
+    color: #571B7E;
+    font-family: "Gill Sans", sans-serif; 
+  }
+  .left p{
+    color: gray;
+    position: relative;
+    bottom: 35px;
+  }
+  span{
+    color: #9370DB;
+  }
