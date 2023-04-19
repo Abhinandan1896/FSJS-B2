@@ -1,5 +1,5 @@
 let firstname='anurag';  //syntax to declare a variable  
-let lastname='tiwari';   //let-used when needed, var-use as much as less
+let lastname='tiwari';   // let-used when needed, var-use as much as less
 const mobileno=8308522448;  //const-used when the value of variable is not going to ochange
 
 

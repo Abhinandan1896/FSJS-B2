@@ -1,6 +1,6 @@
-//#Values/Date Type:-
+//#Values/Data Type:-
 //[1]Primitive data types:have only one values
-
+    
 //i)Number value:-1,2,3,4
 let num=23;
 console.log('this is integer',num);
@@ -13,7 +13,7 @@ let lnum=22;
 console.log(fnum>lnum);
 //iv)Empty Value:- Null, Undefined
 
-//2)Non-Primitive data types: can have multiple values more thn one also
+//2)Non-Primitive data types: can have multiple values more than one also
 //i)Array
 let arr=[1,2,3,4,4,4];
 console.log("this is array having multiple values",arr);
@@ -25,7 +25,7 @@ let dic={
 }
 console.log("this is dictionary having multiple values",dic)
 
-//[2]Variables:- Placeholder for values , container to store values in the memoer allocation
+//[2]Variables:- Placeholder for values , container to store values in the memoery allocation
 let nav='hare krishna';
 const mnum=9123344495;
 var age='23';
@@ -93,6 +93,7 @@ do{
     i++;
 }while(i<=5);//condition 
 
+
 //DATE- BRINGS CURRENT DATE,TIME ,TIMEZONE
 let ak=new Date();
 console.log(ak);
@@ -100,6 +101,7 @@ console.log(ak.toString());
 console.log(ak.getFullYear());
 console.log(ak.getMonth());
 console.log(ak.getDate());
+
 
 //MATH- so many new function we can able to use so lets have look on it
 let PI=Math.PI;
