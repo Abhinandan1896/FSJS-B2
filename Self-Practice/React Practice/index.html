@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+    <style>
+        .foot{
+            border: 3px solid black;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="root">Not Rendering</div>
+    <!-- it is for entire react library -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <!-- it is for read DOM for smooth handling -->
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- it is for babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+     const rootelement=document.querySelector('.root');
+
+     const element=<h1>Hello React</h1>;
+     
+     const cssss={border: '3px solid gray', backgroundColor:"aqua"}
+
+     const header=(
+        <header style={{border:"4px solid red", backgroundColor:"Yellow"}}>
+            <h1>Hare Krishna</h1>
+            <h2>Welcome Back to krishna's World</h2>
+        </header>
+     );
+     const main=(
+        <main style={cssss}>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </main>
+     );
+     const footer=(
+        <footer className="foot">
+            <p>Copyrights-@2023</p>
+            <span>iskcon</span>
+            <p>React CDN, babel--JSX</p>        
+        </footer>
+     );
+
+     const app=<>{header}{main}{main}{main}{main}{main}{main}{footer}</>
+     ReactDOM.render(app,rootelement); //what and where to render
+    </script>
+</body>
+</html>

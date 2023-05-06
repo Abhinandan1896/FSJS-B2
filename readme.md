@@ -11,6 +11,10 @@ _i had posted some articles on github,wrote on Hashnode platform, you can check 
 ## <span style="color:yellow">**JavaScript Assignment**</span> :-
   _we have given 30-Quetions Assignment based on JavaScript_
 
+## <span style="color:yellow">**Projects(DOM)**</span> :- 
+_in this there are 9 main assignments given by ineuron so i have completed them using DOM Manipulation_
+- ### <span style="color:yellow">**1. 9 Project**</span> :-
+
 ## <span style="color:yellow">**Projects(HTML & CSS)**</span> :- 
 _in this there are 6 main project given by ineuron so i have completed them using CSS and HTML only_
 - ### <span style="color:yellow">**1. 6 Project**</span> :-
