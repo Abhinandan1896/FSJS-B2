@@ -14,16 +14,21 @@
 </head>
 <body>
     <div class="root">Not Rendering</div>
-    <!-- it is for entire react library -->
+
+    <!-- React By Using CDN (Needs only index.html file due to use of cdn) -->
+    <!-- it is for entire React Library -->
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <!-- it is for read DOM for smooth handling -->
+    <!-- it is for read DOM for Smooth Handling -->
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <!-- it is for babel -->
+    <!-- it is for BABEL -->;
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- React need only one file to run i.e index.html -->
+    <!-- Below is the Actual React Code -->
     <script type="text/babel">
      const rootelement=document.querySelector('.root');
 
-     const element=<h1>Hello React</h1>;
+     const element=<h1>Hello React</h1>;//JSX (JS+HTML)
      
      const cssss={border: '3px solid gray', backgroundColor:"aqua"}
 
@@ -46,8 +51,7 @@
             <p>React CDN, babel--JSX</p>        
         </footer>
      );
-
-     const app=<>{header}{main}{main}{main}{main}{main}{main}{footer}</>
+     const app=<>{header}{main}{main}{main}{footer}</>
      ReactDOM.render(app,rootelement); //what and where to render
     </script>
 </body>
