@@ -39,8 +39,9 @@ console.log(a+b);
 console.log(a-b);
 console.log(a/b);
 console.log(a*b);
-//ii)Assignment operator: ==, ===.
-//iii)Logical operator: <,>,<=,>=,== etc..
+//ii)comparison operator: ==, ===.
+//iii)Logical operator: AND, OR, NOT
+//iv)Assignment operator:<,>,<=,>=,== etc..
 
 //[4]Conditional Statements
 //1)If-else statement

@@ -16,7 +16,7 @@
 // //for in loop
 // for(let x in nam){
 //     console.log(x);  //all key get into x 
-//    console.log(nam[x]);  //from x i.e keys we can get values very easily
+//     console.log(nam[x]);  //from x i.e keys we can get values very easily
 // }
 
 // //OBJECTS(contins property in property key:values pair)//nearly all objects in javascript are instaces of object because they all inherite the property from there PARENTS

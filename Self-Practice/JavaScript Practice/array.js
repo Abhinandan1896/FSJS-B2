@@ -17,7 +17,7 @@ let names=["hitesh", "Anurag", "anirudh","vinay","krish"];
 //console.log(names.slice(1,3));
 //console.log(names.slice(3,5));
 
-//3)SPLICE- 2-starting index from where to insert item & 1-is how many is to delete or replace with original item frpm 2 index
+//3)SPLICE- 2-starting index from where to insert item & 1-is how many is to delete or replace with original item from 2 index
 // let fruit=["Apple","Bada Apple","Chota apple","baduka apple", "nice apple"];
 // fruit.splice(2,1,'Kharab apple','Achha apple');
 // console.log(fruit);
@@ -34,7 +34,7 @@ let names=["hitesh", "Anurag", "anirudh","vinay","krish"];
 // arr4.fill('anurag',2,4);
 // console.log(arr4);
 
-//6)INCLUDE- present in the array list-- homework
+//6)INCLUDES- present in the array list-- homework
 // let num=[1,2,3,4,5,6,7,6];
 // console.log(num.includes(6,6));
 
