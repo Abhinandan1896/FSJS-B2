@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+     .container{
+        display: flex;
+        height: 600px;
+        border: 3px solid goldenrod;
+        /* flex-direction: column-reverse; */
+        /* this flex direction(by default flex is ROW)
+        so only property is Row-reverse,column,column-reverse */
+
+        /* justify-content: space-evenly; #it works horizontly */
+        /* this justify-content(by default content is flex-start)*/
+
+        /*align-items: center; it works vertically*/ 
+     }
+     .item{
+        background-color: yellow;
+        border: 2px solid red;
+        margin: 5px;
+        height: 50px;
+        width: 50px;
+    }
+    #to{
+        flex-grow: 2;
+        align-self: center;
+    }
+    #thr{
+        flex-grow: 3;
+        position: relative;
+        top: 440px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">one</div>
+        <div class="item" id="to">two</div>
+        <div class="item" id="thr">three</div>
+        <div class="item">four</div>
+    </div>
+</body>
+</html>

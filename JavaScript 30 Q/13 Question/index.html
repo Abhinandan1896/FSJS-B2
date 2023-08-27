@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+    <style>
+        h1{
+            color: darkturquoise;
+            font-weight: bold;
+        }
+        body{
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy new Year</h1>
+<!-- there are three ways 
+1)Prompt() 
+2)alert()
+3)confirms()-->
+    <script>
+        alert('please fill the data carefully');
+        function ifelse(){
+            let age=prompt('enter your age');
+            confirm('is entered age is correct');
+            
+            if(age>=18){
+                 console.log('You are old enough to drive');
+            }else{
+                 let nage=18-age;
+                 console.log('you are very yong come after',nage,'years');
+            }
+        }
+        ifelse();
+    </script>
+</body>
+</html>

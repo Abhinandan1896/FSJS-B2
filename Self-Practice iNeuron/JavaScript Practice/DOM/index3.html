@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Event</title>
+    <style>
+    div{
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="h1">Event & Event Listener</h1>
+    <p id="js">Event Listener by Anurag Sir</p>
+    <div id="fs"></div>
+    <script>
+        //click event
+        document.addEventListener("click",hello)
+        function hello(){
+            document.getElementById("js").innerText="Mouser Clicked"
+            document.getElementById("fs").style.backgroundColor="green"}
+        //doclick Event Event
+        //mouseleave Event
+        //mouseover Event
+        //input  Event
+        //keydown Event
+        //keyup Event
+        //keypress Event
+        //onload Event
+
+        //mouseenter Event 
+        // document.addEventListener("mouseenter",hello)
+        // function hello(){
+        //     document.getElementById("js").innerText="Mouser Entered"
+        // }
+    </script>
+</body>
+</html>

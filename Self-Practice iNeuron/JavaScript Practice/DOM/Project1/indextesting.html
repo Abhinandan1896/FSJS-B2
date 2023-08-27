@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Testing</title>
+    <style>
+        button{
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: orange;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hare Krishna</h1>
+    <button id="fs">Change bgcolor by clicking me</button>
+    <script>
+    let btn=document.getElementById("fs");
+    const randomColor = () => {
+    let val='0123456789ABCDEF';
+    let cons='#';
+    for(let i=0;i<6;i++){
+        cons=cons + val[Math.floor(Math.random() * 16)];
+    }
+    return cons;
+};
+    console.log(randomColor());
+
+function changerandomcolor(){
+    document.body.style.backgroundColor=randomColor();
+}
+//dought is there regarding below line of code can we use target direct botton instead capturing first button like button/body etc
+    btn.addEventListener("click",changerandomcolor);
+
+    </script>
+</body>
+</html>
