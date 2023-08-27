@@ -6,22 +6,22 @@ _this is Full Stack JavaScript Web Development Course By ineuron institute......
 i am very much thankfull to ineuron by giving us such nice and affordable course on this platform, where all can learn high quality content very easily._
 
 ## <span style="color:yellow">**Articles**</span> :- 
-_i had wrote some articles on HTML, CSS and i will write in future again on the topics of JavaScript & ReactJS. you can check all my articles in this folder._
+_i have wrote some articles on HTML, CSS and i will write in future again on the topics of JavaScript & ReactJS. you can check all my articles in this folder._
 
 ## <span style="color:yellow">**JavaScript 30 Q**</span> :-
   _30-Quetions Solved based on JavaScript_
 
 ## <span style="color:yellow">**Projects(DOM)**</span> :- 
-_in this there are 9 main projects given by ineuron so i had completed them using DOM Manipulation_
+_in this there are 9 main projects given by ineuron so i have completed them using DOM Manipulation_
 - ### <span style="color:yellow">**1. 9 Project**</span> :-
 
 ## <span style="color:yellow">**Projects(HTML & CSS)**</span> :- 
-_in this there are 6 main project given by ineuron so i had completed them using CSS and HTML only_
+_in this there are 6 main project given by ineuron so i have completed them using CSS and HTML only_
 - ### <span style="color:yellow">**1. 6 Project**</span> :-
   
 ## <span style="color:yellow">**Projects(Tailwind)**</span> :-
 - ### <span style="color:yellow">**1. 6 Projects**</span> :-
-  _in this there are 6 again main Full landing page project given by ineuron so i had completed them also using TAAILWIND CSS and HTML only_
+  _in this there are 6 again main Full landing page project given by ineuron so i have completed them also using TAAILWIND CSS and HTML only_
 
 - ### <span style="color:yellow">**2. VS-Code Clone**</span> :-
   _VS-Code Website is clone Using HTML & TAILWIND CSS only_
