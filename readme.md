@@ -2,8 +2,8 @@
 
  ## <span style="color: orange;">**Lco==Ineuron==PW Skills**</span>
 
-_this is Full Stack JavaScript Web Development Course By ineuron institute...... the two main teacher of this course is @hitesh sir and @anurag sir and other team members aslo.
-i am very much thankfull to ineuron by giving us very such affordable platform, where all can learn high quality content._
+_this is Full Stack JavaScript Web Development Course By ineuron institute...... the two main teacher of this course is @hitesh sir and @anurag sir.
+i am very much thankfull to ineuron by giving us such nice and affordable course on this platform, where all can learn high quality content very easily._
 
 ## <span style="color:yellow">**Articles**</span> :- 
 _i had wrote some articles on HTML, CSS and i will write in future again on the topics of JavaScript & ReactJS. you can check all my articles in this folder._
